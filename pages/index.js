@@ -1,6 +1,7 @@
 import { createClient } from "contentful";
 import RecipeCard from "../components/RecipeCard";
 
+
 export async function getStaticProps() {
   const client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
