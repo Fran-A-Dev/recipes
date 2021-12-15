@@ -8,9 +8,9 @@ export default function Layout({ children }) {
           <a>
             <h1>
               <span>Fran The Man &apos;s</span>
-              <span>Favorite Single Guy Recipe&apos;s</span>
+              <span>Favorite JAMsnack Recipe&apos;s</span>
             </h1>
-            <h2>Healthy Eats</h2>
+            <h2>Full Snack Dev Eats</h2>
           </a>
         </Link>
       </header>
