@@ -31,12 +31,12 @@ export async function getStaticProps({ params }) {
     "fields.slug": params.slug,
   });
 
-  if(!items.length){
+  if (!items.length) {
     return {
       redirect: {
-        destionation: "/",
-        permanent: false
-      }
+        destination: '/',
+        permanent: false,
+      },
     }
   }
 
